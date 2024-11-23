@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CryptoDiscuss</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CryptoDiscuss</h1>
+    <p>Explore discussions about cryptocurrencies and more!</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="bitcoin.html">Bitcoin</a></li>
+      <li><a href="ethereum.html">Ethereum</a></li>
+      <li><a href="solana.html">Solana</a></li>
+    </ul>
+  </nav>
+  <main>
+    <form id="discussionForm">
+      <input type="text" name="username" placeholder="Your Name" required>
+      <textarea name="message" placeholder="Write your message here..." rows="4" required></textarea>
+      <button type="submit">Post</button>
+    </form>
+
+    <div id="discussionList"></div>
+  </main>
+  <footer>
+    <p>&copy; 2024 CryptoDiscuss. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
